@@ -1,0 +1,52 @@
+.banner{
+    height: 80vh;
+}
+.banner_contents{
+    margin-left: 20px;
+    padding-top: 330px;
+}
+.banner_title{
+    font-size: 3em;
+    margin-bottom: 5px;
+}
+.banner__buttons{
+    display: flex;
+}
+
+.banner__buttons button{
+   
+    padding: 10px 20px;
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: 0 0 5px gray;
+}
+
+.banner__buttons .Play{
+
+    padding: 10px 30px;
+    border: none;
+
+
+}
+.banner__buttons .Play:hover{
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+.banner__buttons .List{
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+.banner__buttons .List:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.banner__description{
+    margin-top: 10px;
+    font-family:cursive;
+}

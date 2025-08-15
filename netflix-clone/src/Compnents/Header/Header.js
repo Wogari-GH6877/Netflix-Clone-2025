@@ -13,7 +13,7 @@ function Header(){
         <div className='header_left'>
           <ul>
             <li><img src={netflex_logo} alt="netflex_logo" width="100"/></li>
-            <li>Netflix</li>
+            
             <li>Home</li>
             <li>TvShow</li>
             <li>Movies</li>
