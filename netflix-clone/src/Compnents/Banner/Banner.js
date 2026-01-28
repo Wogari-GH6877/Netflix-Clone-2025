@@ -11,7 +11,7 @@ function Banner(){
         (async ()=>{
             try{
                 const requests=await axios.get(request.fetchingNetflexOriginal);
-                console.log(requests);
+                // console.log(requests);
                 setMovie(requests.data.results[Math.floor(Math.random()*requests.data.results.length)]);
             }catch(error){
                 console.error("error",error)
